@@ -13,5 +13,4 @@ print(house_num)
 
 number = int(input('Введите число: '))
 day = input('Введите день недели: ')
-print(number)
-print(day)
+print(f’{number} {day}’)
