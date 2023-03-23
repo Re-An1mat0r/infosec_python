@@ -1,1 +1,1 @@
-# gb_infosec_python
+# infosec_python
