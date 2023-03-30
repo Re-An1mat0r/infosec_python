@@ -7,6 +7,3 @@ from sys import argv
 hours, prod_in_hours, bonus = argv[1:]
 salary = (float(hours) * float(prod_in_hours)) + float(bonus)
 print(salary)
-
-
-
