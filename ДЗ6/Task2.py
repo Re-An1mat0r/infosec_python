@@ -8,12 +8,12 @@
 
 
 class Road:
-
+        weight = 30
+        height = 5
+        
     def __init__(self, length, width):
         self._length = length
         self._width = width
-        self.weight = 30
-        self.height = 5
 
     def asphalt_mass(self):
         asphalt_mass = self._length * self._width * self.weight * self.height / 1000
