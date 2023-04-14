@@ -33,4 +33,5 @@ class Matrix:
 
 matrix = Matrix([[3, 5, 32], [2, -4, 6], [1, 32, 8], [2, -1, 3]])
 new_matrix = Matrix([[5, 0, -5], [3, 0, 3], [-5, 3, 2], [4, 2, 7]])
-print(matrix.__add__(new_matrix))
+m = matrix + new_matrix
+print(m)
